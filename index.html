@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>miRadio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="container1">
+			<audio>
+				<source title="AC/DC - Are you ready?" src="songs/ACDC - Are you ready.mp3" type="audio/mp3">
+				<source title="Foo Fighters - Times like  these" src="songs/Foo Fighters - Times like these.mp3" type="audio/mp3">
+				<source title="Metallica - Seek and destroy" src="songs/Metallica - Seek and destroy.mp3" type="audio/mp3">
+				<source title="Imagine Dragons - Whatever it takes" src="songs/Imagine Dragons - Whatever it takes.mp3" type="audio/mp3">
+				<source title="Red Hot Chilli Peppers - Scar tissue" src="songs/Red Hot Chilli Peppers - Scar tissue.mp3" type="audio/mp3">
+				<source title="The Black Keys - Gold on the ceiling" src="songs/The Black Keys - Gold on the ceiling.mp3" type="audio/mp3">
+				<source title="The Police - Roxanne" src="songs/The Police - Roxanne.mp3" type="audio/mp3">
+			</audio>
+			<div class="botones">
+				<button class="atras controles">Atras</button>
+				<button class="playPausa controles">Play</button>
+				<button class="siguiente controles">Siguiente</button>
+				<button class="shuffle controles">Shuffle</button>
+			</div>
+			<div class="info">
+				<div class="izquierda">
+					<p class="artista"></p>
+				</div>
+				<div class="derecha">
+					<p class="duracion"></p>
+					<button class="menos">-</button>
+					<p class="volumen">|||||</p>
+					<button class="mas">+</button>
+					<button class="mute">Mute</button>
+				</div>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="listaReproduccion">
+				<p>Lista de Reproduccion</p>
+			</div>
+			<ol class="listado"></ol>
+		</div>
+	</div>
+</body>
+</html>
