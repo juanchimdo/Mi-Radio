@@ -1,3 +1,3 @@
 # Mi Radio
 
-https://juanchimdo.github.io/radio/
+https://juanchimdo.github.io/Mi-Radio/
